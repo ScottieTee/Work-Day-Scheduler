@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,9 +31,31 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="hour col-md-1 col-sm-1">9 AM</div>
+        <textarea class="past col-md-10 col-sm-10">Wake up</textarea>
+        <button class="saveBtn col-md-1 col-sm-1">
+            <span class="fas fa-save"></span>
+        </button>
+    </div>
+    <div class="row">
+        <div class="hour col-md-1 col-sm-1">10 AM</div>
+        <textarea class="present col-md-10 col-sm-10"></textarea>
+        <button class="saveBtn col-md-1 col-sm-1">
+            <span class="fas fa-save"></span>
+        </button>
+    </div>
+    <div class="row">
+        <div class="hourcol-md-1 col-sm-1">11 AM</div>
+        <textarea class="future col-md-10 col-sm-10">Do something</textarea>
+        <button class="saveBtn col-md-1 col-sm-1">
+            <span class="fas fa-save"></span>
+        </button>
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
