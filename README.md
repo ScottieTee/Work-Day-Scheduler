@@ -5,7 +5,7 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-ACCEPTANCE CRITERIA
+CRITERIA
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -20,4 +20,9 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+TECH USED
+HTML CSS and JS
+
+Screenshot-
+![Screenshot](./src/assets/workday.png)
 LINK : https://scottietee.github.io/Work-Day-Scheduler/
